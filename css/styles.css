@@ -1,0 +1,153 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  color: #ECB390;
+  margin: 50px auto 0 auto;
+  font-family: 'Tangerine', cursive;
+  font-size: 90px;
+}
+
+h2 {
+  color: #94B49F;
+  font-family: 'Urbanist', sans-serif;
+}
+
+h3 {
+  color: #DF7861;
+  font-family: 'Urbanist', sans-serif;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  width: 5%;
+}
+
+p {
+  line-height: 2;
+}
+
+
+.bottom-cloud {
+  position: absolute;
+  bottom: 330px;
+}
+
+.btn {
+  background: #ECB390;
+  background-image: linear-gradient(top, #ECB390, #914920);
+  background-image: linear-gradient(to bottom, #ECB390, #914920);
+  -webkit-border-radius: 19;
+  -moz-border-radius: 19;
+  border-radius: 19px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #94B49F;
+  background-image: linear-gradient(top, #94B49F, #94B49F);
+  background-image: linear-gradient(to bottom, #94B49F, #94B49F);
+  text-decoration: none;
+}
+
+.contact-me {
+  margin: 80px;
+}
+
+.copyright {
+  color: #0B032D;
+  font-size: 12px;
+}
+
+.footer-link {
+  margin: 30px;
+  color: #FCF8E8;
+  font-family: 'Urbanist', sans-serif;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: #0B032D;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.profile {
+  align-items: center;
+  margin: 30px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 80px auto 80px auto;
+  text-align: left;
+}
+
+.skills {
+  margin: 50px;
+}
+
+.skillsimg {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.chillies {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.memoji {
+  background-color: #ECB390;
+  border-radius: 50%;
+  width: 150px;
+  margin: 25px 0 5 0;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 50px;
+  right: 450px;
+}
+
+.top {
+  background-color: #FCF8E8;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  align-items: center;
+  background-color: #ffffff;
+  margin: 100px 0;
+}
+
+.bottom-container {
+  align-items: center;
+  background-color: #DF7861;
+  line-height: 2;
+  margin: 50px 0 0 0;
+  padding: 40px;
+}
+
+.bottom-text {
+  width: 30%;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
